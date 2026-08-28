@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files"><UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier></Filter>
+    <Filter Include="Source Files\CRT"><UniqueIdentifier>{E9D27AD1-A844-46C9-8DE7-6D1A5152DE5F}</UniqueIdentifier></Filter>
+    <Filter Include="Source Files\Memory\Physical"><UniqueIdentifier>{8B34456F-C497-490A-83EC-A2D922715E36}</UniqueIdentifier></Filter>
+    <Filter Include="Source Files\Memory\Virtual"><UniqueIdentifier>{671C6936-D0C5-4D10-88C0-E27D66C0E566}</UniqueIdentifier></Filter>
+    <Filter Include="Header Files"><UniqueIdentifier>{93995380-89BD-4B04-88EB-625FBE52EBFB}</UniqueIdentifier></Filter>
+    <Filter Include="Header Files\Memory"><UniqueIdentifier>{2A302D39-78CF-4BB2-A315-44D56D782826}</UniqueIdentifier></Filter>
+    <Filter Include="Header Files\Memory\Detail"><UniqueIdentifier>{2CB3404C-4948-4997-AEC7-2496A357FF8D}</UniqueIdentifier></Filter>
+    <Filter Include="Header Files\Memory\Physical"><UniqueIdentifier>{284F629B-E3B8-4DF0-902E-7A551E8B8DE0}</UniqueIdentifier></Filter>
+    <Filter Include="Header Files\Memory\Physical\Detail"><UniqueIdentifier>{29DA055C-C8C7-4191-8EDF-B332B85ADFA4}</UniqueIdentifier></Filter>
+    <Filter Include="Header Files\Memory\Virtual"><UniqueIdentifier>{A33F82B8-5962-47D8-BB50-FB4831A216E4}</UniqueIdentifier></Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Entry.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="Source\CRT\Runtime.cpp"><Filter>Source Files\CRT</Filter></ClCompile>
+    <ClCompile Include="Source\Memory\Physical\PhysicalMemoryMapping.cpp"><Filter>Source Files\Memory\Physical</Filter></ClCompile>
+    <ClCompile Include="Source\Memory\Physical\PhysicalMemoryReader.cpp"><Filter>Source Files\Memory\Physical</Filter></ClCompile>
+    <ClCompile Include="Source\Memory\Physical\PhysicalMemoryWriter.cpp"><Filter>Source Files\Memory\Physical</Filter></ClCompile>
+    <ClCompile Include="Source\Memory\Virtual\DirectoryTableBase.cpp"><Filter>Source Files\Memory\Virtual</Filter></ClCompile>
+    <ClCompile Include="Source\Memory\Virtual\VirtualAddressTranslator.cpp"><Filter>Source Files\Memory\Virtual</Filter></ClCompile>
+    <ClCompile Include="Source\Memory\Virtual\VirtualMemoryReader.cpp"><Filter>Source Files\Memory\Virtual</Filter></ClCompile>
+    <ClCompile Include="Source\Memory\Virtual\VirtualMemoryWriter.cpp"><Filter>Source Files\Memory\Virtual</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\Memory\Address.hpp"><Filter>Header Files\Memory</Filter></ClInclude>
+    <ClInclude Include="Include\Memory\Memory.hpp"><Filter>Header Files\Memory</Filter></ClInclude>
+    <ClInclude Include="Include\Memory\MemoryError.hpp"><Filter>Header Files\Memory</Filter></ClInclude>
+    <ClInclude Include="Include\Memory\MemoryRegion.hpp"><Filter>Header Files\Memory</Filter></ClInclude>
+    <ClInclude Include="Include\Memory\MemoryView.hpp"><Filter>Header Files\Memory</Filter></ClInclude>
+    <ClInclude Include="Include\Memory\Detail\ReadOperations.hpp"><Filter>Header Files\Memory\Detail</Filter></ClInclude>
+    <ClInclude Include="Include\Memory\Detail\WriteOperations.hpp"><Filter>Header Files\Memory\Detail</Filter></ClInclude>
+    <ClInclude Include="Include\Memory\Physical\Physical.hpp"><Filter>Header Files\Memory\Physical</Filter></ClInclude>
+    <ClInclude Include="Include\Memory\Physical\Detail\PhysicalPage.hpp"><Filter>Header Files\Memory\Physical\Detail</Filter></ClInclude>
+    <ClInclude Include="Include\Memory\Physical\PhysicalAddress.hpp"><Filter>Header Files\Memory\Physical</Filter></ClInclude>
+    <ClInclude Include="Include\Memory\Physical\PhysicalMemoryMapping.hpp"><Filter>Header Files\Memory\Physical</Filter></ClInclude>
+    <ClInclude Include="Include\Memory\Physical\PhysicalMemoryReader.hpp"><Filter>Header Files\Memory\Physical</Filter></ClInclude>
+    <ClInclude Include="Include\Memory\Physical\PhysicalMemoryRegion.hpp"><Filter>Header Files\Memory\Physical</Filter></ClInclude>
+    <ClInclude Include="Include\Memory\Physical\PhysicalMemoryView.hpp"><Filter>Header Files\Memory\Physical</Filter></ClInclude>
+    <ClInclude Include="Include\Memory\Physical\PhysicalMemoryWriter.hpp"><Filter>Header Files\Memory\Physical</Filter></ClInclude>
+    <ClInclude Include="Include\Memory\Virtual\DirectoryTableBase.hpp"><Filter>Header Files\Memory\Virtual</Filter></ClInclude>
+    <ClInclude Include="Include\Memory\Virtual\Virtual.hpp"><Filter>Header Files\Memory\Virtual</Filter></ClInclude>
+    <ClInclude Include="Include\Memory\Virtual\VirtualAddress.hpp"><Filter>Header Files\Memory\Virtual</Filter></ClInclude>
+    <ClInclude Include="Include\Memory\Virtual\VirtualAddressTranslation.hpp"><Filter>Header Files\Memory\Virtual</Filter></ClInclude>
+    <ClInclude Include="Include\Memory\Virtual\VirtualAddressTranslator.hpp"><Filter>Header Files\Memory\Virtual</Filter></ClInclude>
+    <ClInclude Include="Include\Memory\Virtual\VirtualMemoryReader.hpp"><Filter>Header Files\Memory\Virtual</Filter></ClInclude>
+    <ClInclude Include="Include\Memory\Virtual\VirtualMemoryRegion.hpp"><Filter>Header Files\Memory\Virtual</Filter></ClInclude>
+    <ClInclude Include="Include\Memory\Virtual\VirtualMemoryWriter.hpp"><Filter>Header Files\Memory\Virtual</Filter></ClInclude>
+  </ItemGroup>
+</Project>

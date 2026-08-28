@@ -1,0 +1,12 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+  </Configurations>
+  <Folder Name="/Solution Items/">
+    <File Path="LICENSE.txt" />
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="EfiInfo\EfiInfo.vcxproj" Id="0c18cc11-ec69-c840-936c-8abf6b142ebb">
+    <Deploy />
+  </Project>
+</Solution>
